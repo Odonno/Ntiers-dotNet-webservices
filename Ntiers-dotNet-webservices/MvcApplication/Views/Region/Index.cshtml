@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MvcApplication.MyNorthwindRegionService.Region>
+
+@{
+    ViewBag.Title = "Regions";
+}
+
+<h2>Regions</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RegionDescription)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RegionDescription)
+        </td>
+    </tr>
+}
+
+</table>
+
+@Html.ActionLink("Back to Index", "Index", "Home")

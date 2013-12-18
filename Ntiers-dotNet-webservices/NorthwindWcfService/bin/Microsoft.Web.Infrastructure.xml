@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Microsoft.Web.Infrastructure</name>
+  </assembly>
+  <members>
+    <member name="T:Microsoft.Web.Infrastructure.HttpContextHelper">
+      <summary>Contient les méthodes qui permettent d'exécuter un délégué Action dans un contexte null.</summary>
+    </member>
+    <member name="M:Microsoft.Web.Infrastructure.HttpContextHelper.ExecuteInNullContext(System.Action)">
+      <summary>Définit le contexte HTTP sur la valeur null, exécute le délégué Action spécifié, puis restaure le contexte HTTP précédent.</summary>
+      <param name="action">Délégué Action.</param>
+    </member>
+    <member name="T:Microsoft.Web.Infrastructure.InfrastructureHelper">
+      <summary>Fournit des méthodes d'assistance pour les appels de méthode d'infrastructure.</summary>
+    </member>
+    <member name="M:Microsoft.Web.Infrastructure.InfrastructureHelper.IsCodeDomDefinedExtension(System.String)">
+      <summary>Définit une méthode d'assistance qui permet d'appeler la méthode <see cref="M:System.CodeDom.Compiler.CodeDomProvider.IsDefinedExtension" /> à partir d'une application qui n'est pas entièrement fiable.</summary>
+      <returns>true si une implémentation <see cref="T:System.CodeDom.Compiler.CodeDomProvider" /> est configurée pour l'extension de nom de fichier spécifiée ; sinon, false.</returns>
+      <param name="extension">Extension de nom de fichier.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="extension" /> a la valeur null.</exception>
+      <exception cref="T:System.Security.SecurityException">L'appelant ne possède pas l'autorisation requise.</exception>
+    </member>
+    <member name="M:Microsoft.Web.Infrastructure.InfrastructureHelper.UnloadAppDomain">
+      <summary>Définit une méthode d'assistance qui permet d'appeler la méthode <see cref="M:System.Web.HttpRuntime.UnloadAppDomain" /> à partir d'une application qui n'est pas entièrement fiable.</summary>
+    </member>
+    <member name="T:Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleUtility">
+      <summary>Définit une classe qui fournit une méthode qui permet d'enregistrer dynamiquement les modules.</summary>
+    </member>
+    <member name="M:Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleUtility.RegisterModule(System.Type)">
+      <summary>Enregistre dynamiquement un module <see cref="T:System.Web.IHttpModule" />.</summary>
+      <param name="moduleType">Type du module à enregistrer.</param>
+    </member>
+    <member name="T:Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility">
+      <summary>Fournit des méthodes utilitaires pour la validation dynamique des demandes.</summary>
+    </member>
+    <member name="M:Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility.EnableDynamicValidation(System.Web.HttpContext)">
+      <summary>Active la validation dynamique des demandes pour le contexte HTTP spécifié.</summary>
+      <param name="context">Contexte HTTP.</param>
+    </member>
+    <member name="M:Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility.GetUnvalidatedCollections(System.Web.HttpContext,System.Func`1@,System.Void)">
+      <summary>Obtient des délégués qui récupèrent les collections Form et Query non validées.</summary>
+      <param name="context">Contexte HTTP.</param>
+      <param name="formGetter">Lorsque cette méthode est retournée, contient un délégué qui retourne des collections nom/valeur à partir du formulaire dans le contexte HTTP. Ce paramètre est passé sans être initialisé.</param>
+      <param name="queryStringGetter">Lorsque cette méthode est retournée, contient un délégué qui retourne des collections nom/valeur à partir de la chaîne de requête dans le contexte HTTP. Ce paramètre est passé sans être initialisé.</param>
+    </member>
+    <member name="M:Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility.IsValidationEnabled(System.Web.HttpContext)">
+      <summary>Retourne une valeur qui indique si la validation dynamique des demandes est activée pour ce contexte HTTP.</summary>
+      <returns>true si la validation dynamique des demandes est activée pour ce contexte HTTP ; sinon, false.</returns>
+      <param name="context">Contexte HTTP.</param>
+    </member>
+  </members>
+</doc>

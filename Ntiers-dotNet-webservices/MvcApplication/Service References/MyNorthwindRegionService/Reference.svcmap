@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ccf81d04-c9cf-4f08-8447-07a7fef78a1f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9700/Services/Concrete/RegionService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegionService.disco" MetadataType="Disco" ID="6b7753da-28b8-49ce-a7b6-e7b1d47f899b" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/RegionService.svc?disco" />
+    <MetadataFile FileName="RegionService.xsd" MetadataType="Schema" ID="26881086-5fee-43ab-bcbe-546123c634d6" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/RegionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RegionService1.xsd" MetadataType="Schema" ID="18fd8cb8-782f-42c7-b63b-3897e623a748" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/RegionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RegionService.wsdl" MetadataType="Wsdl" ID="f63e6b63-ef44-4f14-8ef4-4982ae8cc127" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/RegionService.svc?wsdl" />
+    <MetadataFile FileName="RegionService2.xsd" MetadataType="Schema" ID="28534a9a-844d-4aa2-bbaa-e370e04e226f" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/RegionService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

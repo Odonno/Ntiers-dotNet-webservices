@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Index";
+
+    String customers = String.Format("{0} customers", ViewBag.CustomerCount);
+    String products = String.Format("{0} products", ViewBag.ProductCount);
+}
+
+<h2>Index</h2>
+
+<h3>@ViewBag.RandomNumber = random number</h3>
+
+<h3>@Html.ActionLink(customers, "Index", "Customer")</h3>
+<h3>@Html.ActionLink(products, "Index", "Product")</h3>
+<h3>@Html.ActionLink("20 last orders", "Index", "Order")</h3>
+<h3>@Html.ActionLink("Categories", "Index", "Categorie")</h3>
+<h3>@Html.ActionLink("Regions", "Index", "Region")</h3>

@@ -1,0 +1,11 @@
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\NorthwindDAL.dll.config
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\NorthwindDAL.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\NorthwindDAL.pdb
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\EntityFramework.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\EntityFramework.SqlServer.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\EntityFramework.xml
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\EntityFramework.SqlServer.xml
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\bin\Debug\fr\EntityFramework.resources.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\obj\Debug\NorthwindDAL.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\obj\Debug\NorthwindDAL.pdb
+P:\Webservices\Webservices_Quatre_Couches\NorthwindDAL\obj\Debug\NorthwindDAL.csprojResolveAssemblyReference.cache

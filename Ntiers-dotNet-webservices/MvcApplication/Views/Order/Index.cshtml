@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MvcApplication.MyNorthwindOrderService.Orders>
+
+@{
+    ViewBag.Title = "Orders";
+}
+
+<h2>Orders</h2>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShipName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShipRegion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShipName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShipRegion)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.OrderID })
+        </td>
+    </tr>
+}
+
+</table>
+
+@Html.ActionLink("Back to Index", "Index", "Home")

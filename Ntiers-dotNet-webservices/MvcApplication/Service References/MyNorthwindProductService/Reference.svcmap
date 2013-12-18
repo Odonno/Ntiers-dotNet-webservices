@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b578c439-8e10-418a-bd73-744593ffd6e9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9700/Services/Concrete/ProductService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductService.xsd" MetadataType="Schema" ID="20b4c71e-2586-4990-a684-2f04e3d73f14" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/ProductService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProductService1.xsd" MetadataType="Schema" ID="235c41d8-3019-40f4-8fd3-472cc02a80c3" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/ProductService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ProductService2.xsd" MetadataType="Schema" ID="33325174-29ec-43b7-913b-c36047c57f4f" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/ProductService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProductService.wsdl" MetadataType="Wsdl" ID="d6997bb8-ab42-48e5-9004-433de039e6c2" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/ProductService.svc?wsdl" />
+    <MetadataFile FileName="ProductService.disco" MetadataType="Disco" ID="42f0fa81-2bcc-4eb4-9b76-714aa11c895d" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/ProductService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

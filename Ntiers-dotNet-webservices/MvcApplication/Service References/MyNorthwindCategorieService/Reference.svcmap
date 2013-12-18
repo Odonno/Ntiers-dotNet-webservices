@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="467e4ed7-52a1-4b69-b242-9a93f79ee461" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9700/Services/Concrete/CategorieService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CategorieService.xsd" MetadataType="Schema" ID="e78f3ebc-3449-4f6c-8297-a4442e269bc7" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/CategorieService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CategorieService.disco" MetadataType="Disco" ID="2620ded6-1624-4da0-947c-471792a420e5" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/CategorieService.svc?disco" />
+    <MetadataFile FileName="CategorieService1.xsd" MetadataType="Schema" ID="6a8812c6-2eed-4fa1-841b-c116739a1532" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/CategorieService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CategorieService.wsdl" MetadataType="Wsdl" ID="0bbef686-33fc-4b27-bb06-5a498dde3321" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/CategorieService.svc?wsdl" />
+    <MetadataFile FileName="CategorieService2.xsd" MetadataType="Schema" ID="04a22f5d-f665-4854-b3c6-09d9a7ebf01c" SourceId="1" SourceUrl="http://localhost:9700/Services/Concrete/CategorieService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

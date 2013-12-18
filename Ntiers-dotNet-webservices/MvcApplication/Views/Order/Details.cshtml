@@ -1,0 +1,35 @@
+﻿@model MvcApplication.MyNorthwindOrderService.Orders
+
+@{
+    ViewBag.Title = "Order Details";
+}
+
+<h2>@Model.ShipName</h2>
+
+<fieldset>
+    <legend>Order</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ShipRegion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ShipRegion)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

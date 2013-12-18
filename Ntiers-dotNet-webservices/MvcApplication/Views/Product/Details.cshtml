@@ -1,0 +1,35 @@
+﻿@model MvcApplication.MyNorthwindProductService.Products
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<h2>@Model.ProductName</h2>
+
+<fieldset>
+    <legend>Product</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.QuantityPerUnit)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.QuantityPerUnit)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UnitPrice)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UnitPrice)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UnitsInStock)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UnitsInStock)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

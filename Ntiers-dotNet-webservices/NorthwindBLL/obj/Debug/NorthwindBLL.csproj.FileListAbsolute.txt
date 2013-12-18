@@ -1,0 +1,13 @@
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\NorthwindBLL.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\NorthwindBLL.pdb
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\NorthwindDAL.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\EntityFramework.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\NorthwindDAL.pdb
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\EntityFramework.xml
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\fr\EntityFramework.resources.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\obj\Debug\NorthwindBLL.csprojResolveAssemblyReference.cache
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\obj\Debug\NorthwindBLL.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\obj\Debug\NorthwindBLL.pdb
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\Ninject.dll
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\Ninject.pdb
+P:\Webservices\Webservices_Quatre_Couches\NorthwindBLL\bin\Debug\Ninject.xml
