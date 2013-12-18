@@ -20,7 +20,7 @@ Don't forget the Dependency Injection (Ninject) !
 NorthwindBLL
 ------------------------
 
-A Class Library project (__BLL__ : Business Logic Layer) that manage intermediate datas.  
+A Class Library project (__BLL__ : Business Logic Layer) that manages intermediate datas.  
 Return logic datas from DAL.  
 Don't forget the Dependency Injection (Ninject) !  
 
